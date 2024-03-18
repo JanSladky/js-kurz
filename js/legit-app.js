@@ -22,8 +22,7 @@ function financial(number, currency = 'czk') {
 			style: 'currency',
 			currency: 'SK',
 		});
-	}
-	 else if (currency === 'czk') {
+	} else {
 		number = number.toLocaleString('cs-CZ', {
 			style: 'currency',
 			currency: 'CZK',
@@ -33,4 +32,4 @@ function financial(number, currency = 'czk') {
 	return number;
 }
 
-console.log(financial(123.5454, 'usd'));
+console.log(financial(123.5454));
