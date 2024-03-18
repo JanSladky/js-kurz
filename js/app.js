@@ -43,7 +43,7 @@ function addNewLi() {
 /* Úloha 3 - část C - práce s poly */
 
 //Iniciace buttonu pro přidání nového prvku
-let addButton = document.getElementById('addNewElement');
+/* let addButton = document.getElementById('addNewElement');
 //Spuštění funkce když se klikne na button
 addButton.addEventListener('click', controlEntryData);
 
@@ -111,7 +111,7 @@ function resultWithData() {
 		newLi.appendChild(newParagraph);
 	});
 }
-
+ */
 /* **************** End of úloha 3 část C - práce s poly ************************ */
 
 /* 
